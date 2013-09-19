@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Poll feature.
+ */
+
+include_once 'imagex_poll.features.inc';
