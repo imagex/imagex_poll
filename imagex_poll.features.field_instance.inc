@@ -527,94 +527,6 @@ function imagex_poll_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-advpoll-field_groups'
-  $field_instances['node-advpoll-field_groups'] = array(
-    'bundle' => 'advpoll',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'og_role_field',
-        'settings' => array(),
-        'type' => 'og_role_field_formatter_plain',
-        'weight' => 11,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_groups',
-    'label' => 'Groups',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'options',
-      'settings' => array(
-        'apply_chosen' => 0,
-      ),
-      'type' => 'options_select',
-      'weight' => 4,
-    ),
-    'workbench_access_field' => 0,
-  );
-
-  // Exported field_instance: 'node-advpoll-field_radioactivity'
-  $field_instances['node-advpoll-field_radioactivity'] = array(
-    'bundle' => 'advpoll',
-    'default_value' => array(
-      0 => array(
-        'radioactivity_energy' => 0,
-        'radioactivity_timestamp' => 1379632916,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'radioactivity',
-        'settings' => array(
-          'accuracy' => 100,
-          'energy' => 10,
-          'type' => 'none',
-        ),
-        'type' => 'radioactivity_combo_formatter',
-        'weight' => 10,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_radioactivity',
-    'label' => 'Radioactivity',
-    'required' => FALSE,
-    'settings' => array(
-      'profile' => 'default',
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'radioactivity',
-      'settings' => array(),
-      'type' => 'radioactivity_basic_widget',
-      'weight' => 3,
-    ),
-    'workbench_access_field' => 0,
-  );
-
   // Exported field_instance: 'node-advpoll-field_tags'
   $field_instances['node-advpoll-field_tags'] = array(
     'bundle' => 'advpoll',
@@ -664,13 +576,11 @@ function imagex_poll_field_default_field_instances() {
   t('Close poll');
   t('Cookie duration');
   t('Display results');
-  t('Groups');
   t('If the poll\'s voting availability is being controlled by a cookie, this value determine how long to wait between votes in minutes.');
   t('Maximum choices');
   t('Permission settings are necessary for allowing write-in voting, visibility of individual votes and administration of electoral lists.');
   t('Poll Choice');
   t('Poll availability');
-  t('Radioactivity');
   t('Select the date range that controls the availability of this poll.');
   t('Select the maximum number of choices that can be voted upon.');
   t('Tags');

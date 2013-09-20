@@ -22,7 +22,7 @@ function imagex_poll_node_info() {
     'advpoll' => array(
       'name' => t('Poll'),
       'base' => 'node_content',
-      'description' => t('Advanced Poll adds additional poll functionality, cookie voting, write-ins and voting modes.'),
+      'description' => '',
       'has_title' => '1',
       'title_label' => t('Question'),
       'help' => '',
