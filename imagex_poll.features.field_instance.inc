@@ -527,6 +527,54 @@ function imagex_poll_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'node-advpoll-field_radioactivity'
+  $field_instances['node-advpoll-field_radioactivity'] = array(
+    'bundle' => 'advpoll',
+    'default_value' => array(
+      0 => array(
+        'radioactivity_energy' => 0,
+        'radioactivity_timestamp' => 1382468140,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'radioactivity',
+        'settings' => array(
+          'accuracy' => 100,
+          'energy' => 10,
+          'type' => 'none',
+        ),
+        'type' => 'radioactivity_combo_formatter',
+        'weight' => 16,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_radioactivity',
+    'label' => 'field_radioactivity',
+    'required' => FALSE,
+    'settings' => array(
+      'profile' => 'medium_traffic',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'radioactivity',
+      'settings' => array(),
+      'type' => 'radioactivity_basic_widget',
+      'weight' => 23,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'node-advpoll-field_tags'
   $field_instances['node-advpoll-field_tags'] = array(
     'bundle' => 'advpoll',
@@ -539,7 +587,7 @@ function imagex_poll_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 12,
+        'weight' => 14,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -563,7 +611,7 @@ function imagex_poll_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 5,
+      'weight' => 20,
     ),
     'workbench_access_field' => 0,
   );
@@ -590,6 +638,7 @@ function imagex_poll_field_default_field_instances() {
   t('Voting options');
   t('Warning, changing this setting after votes have already been recorded for this poll will cause existing votes to be flushed.');
   t('When closed, a poll may no longer be voted upon but will display its results if settings allow.  For blocks, polls that are enabled to show results will show results, otherwise the block will no longer be available.');
+  t('field_radioactivity');
 
   return $field_instances;
 }
