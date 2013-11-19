@@ -10,7 +10,7 @@
 function imagex_poll_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: access electoral list.
+  // Exported permission: 'access electoral list'.
   $permissions['access electoral list'] = array(
     'name' => 'access electoral list',
     'roles' => array(
@@ -20,7 +20,7 @@ function imagex_poll_user_default_permissions() {
     'module' => 'advpoll',
   );
 
-  // Exported permission: add write-ins.
+  // Exported permission: 'add write-ins'.
   $permissions['add write-ins'] = array(
     'name' => 'add write-ins',
     'roles' => array(
@@ -30,7 +30,7 @@ function imagex_poll_user_default_permissions() {
     'module' => 'advpoll',
   );
 
-  // Exported permission: administer polls.
+  // Exported permission: 'administer polls'.
   $permissions['administer polls'] = array(
     'name' => 'administer polls',
     'roles' => array(
@@ -42,14 +42,14 @@ function imagex_poll_user_default_permissions() {
     'module' => 'advpoll',
   );
 
-  // Exported permission: cancel own vote.
+  // Exported permission: 'cancel own vote'.
   $permissions['cancel own vote'] = array(
     'name' => 'cancel own vote',
     'roles' => array(),
     'module' => 'advpoll',
   );
 
-  // Exported permission: create advpoll content.
+  // Exported permission: 'create advpoll content'.
   $permissions['create advpoll content'] = array(
     'name' => 'create advpoll content',
     'roles' => array(
@@ -61,21 +61,21 @@ function imagex_poll_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: delete any advpoll content.
+  // Exported permission: 'delete any advpoll content'.
   $permissions['delete any advpoll content'] = array(
     'name' => 'delete any advpoll content',
     'roles' => array(),
     'module' => 'node',
   );
 
-  // Exported permission: delete own advpoll content.
+  // Exported permission: 'delete own advpoll content'.
   $permissions['delete own advpoll content'] = array(
     'name' => 'delete own advpoll content',
     'roles' => array(),
     'module' => 'node',
   );
 
-  // Exported permission: edit any advpoll content.
+  // Exported permission: 'edit any advpoll content'.
   $permissions['edit any advpoll content'] = array(
     'name' => 'edit any advpoll content',
     'roles' => array(
@@ -87,7 +87,7 @@ function imagex_poll_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: edit own advpoll content.
+  // Exported permission: 'edit own advpoll content'.
   $permissions['edit own advpoll content'] = array(
     'name' => 'edit own advpoll content',
     'roles' => array(
@@ -99,7 +99,7 @@ function imagex_poll_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: inspect all votes.
+  // Exported permission: 'inspect all votes'.
   $permissions['inspect all votes'] = array(
     'name' => 'inspect all votes',
     'roles' => array(
@@ -111,7 +111,7 @@ function imagex_poll_user_default_permissions() {
     'module' => 'advpoll',
   );
 
-  // Exported permission: show vote results.
+  // Exported permission: 'show vote results'.
   $permissions['show vote results'] = array(
     'name' => 'show vote results',
     'roles' => array(
@@ -122,7 +122,7 @@ function imagex_poll_user_default_permissions() {
     'module' => 'advpoll',
   );
 
-  // Exported permission: show write-ins.
+  // Exported permission: 'show write-ins'.
   $permissions['show write-ins'] = array(
     'name' => 'show write-ins',
     'roles' => array(
@@ -132,7 +132,7 @@ function imagex_poll_user_default_permissions() {
     'module' => 'advpoll',
   );
 
-  // Exported permission: vote on polls.
+  // Exported permission: 'vote on polls'.
   $permissions['vote on polls'] = array(
     'name' => 'vote on polls',
     'roles' => array(
