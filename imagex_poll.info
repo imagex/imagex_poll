@@ -10,7 +10,6 @@ dependencies[] = ctools
 dependencies[] = date
 dependencies[] = features
 dependencies[] = imagex_common_fields
-dependencies[] = imagex_poll_addthis
 dependencies[] = imagex_vocabulary_tags
 dependencies[] = imagex_vocabulary_tags_field
 dependencies[] = list
