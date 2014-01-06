@@ -21,7 +21,7 @@ function imagex_poll_node_info() {
     'advpoll' => array(
       'name' => t('Poll'),
       'base' => 'node_content',
-      'description' => '',
+      'description' => t('Use <em>poll</em> to ask users a question and receive simple vote-oriented responses.'),
       'has_title' => '1',
       'title_label' => t('Question'),
       'help' => '',
