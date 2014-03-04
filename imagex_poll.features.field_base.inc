@@ -44,11 +44,7 @@ function imagex_poll_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'advpoll_choice',
     'foreign keys' => array(),
-    'indexes' => array(
-      'choice' => array(
-        0 => 'choice',
-      ),
-    ),
+    'indexes' => array(),
     'locked' => 0,
     'module' => 'advpoll_field',
     'settings' => array(),
